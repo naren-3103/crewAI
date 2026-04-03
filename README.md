@@ -53,6 +53,7 @@ Ensure you have Python installed, as well as [Ollama](https://ollama.com/) runni
 CrewAI natively requires LLMs capable of rigid tool-calling schemas. Make sure to pull `llama3.1`.
 ```bash
 ollama pull llama3.1
+ollama run llama3.1
 ```
 
 ### 3. Initialize Python Environment
