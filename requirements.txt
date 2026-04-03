@@ -1,0 +1,7 @@
+crewai
+langchain
+langchain-community
+duckduckgo-search
+fastapi
+uvicorn
+streamlit
