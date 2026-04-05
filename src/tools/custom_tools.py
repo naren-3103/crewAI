@@ -4,9 +4,9 @@ import os
 
 class DataScienceTools:
     
-    @tool("Search Internet for Data Science Papers and Concepts")
+    @tool("search_internet")
     def search_internet(query: str) -> str:
-        """Useful to search the internet about a given topic and return relevant results."""
+        """Search the internet and return real-time results."""
         search = DuckDuckGoSearchResults()
         return search.run(query)
 
