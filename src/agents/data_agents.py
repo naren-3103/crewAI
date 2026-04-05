@@ -26,7 +26,7 @@ class DataScienceAgents:
             backstory=(
                 "You are a seasoned data scientist and technical writer. "
                 "You excel at taking complex research data, filtering out the noise, and "
-                "creating beautifully structured, easy-to-understand reports. You save your final findings to disk."
+                "creating beautifully structured, easy-to-understand reports in a proper format (With heading,subheadings and pointers). You save your final findings to disk."
             ),
             tools=[DataScienceTools.search_internet],  # Uses search tool for fact checking
             llm=llm,
