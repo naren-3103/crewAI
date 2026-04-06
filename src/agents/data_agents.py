@@ -13,7 +13,7 @@ class DataScienceAgents:
                 "You have a keen eye for identifying new trends, algorithms, and methodologies. "
                 "You are thorough and always back up your claims with accurate information."
             ),
-            tools=[DataScienceTools.search_internet],  # 1 Tool
+            tools=[DataScienceTools.mega_search],
             llm=llm,
             verbose=True,
             allow_delegation=False
@@ -26,9 +26,9 @@ class DataScienceAgents:
             backstory=(
                 "You are a seasoned data scientist and technical writer. "
                 "You excel at taking complex research data, filtering out the noise, and "
-                "creating beautifully structured, easy-to-understand reports in a proper format (With heading,subheadings and pointers). You save your final findings to disk."
+                "creating beautifully structured, easy-to-understand reports in a proper format (With heading, subheadings and pointers)."
             ),
-            tools=[DataScienceTools.search_internet],  # Uses search tool for fact checking
+            tools=[],
             llm=llm,
             verbose=True,
             allow_delegation=False
